@@ -1,0 +1,22 @@
+intall geany : sudo apt install geany
+
+command : geany (then will open geany app)
+configure geany preferences:
+
+open preference : Ctrl + Alt + p
+
+
+	         In keybinding tab set switch to editor as F1 and switch to VTE as F2
+           
+               (VTE is built-in terminal). confirm overriding for both.
+               
+		in terminal tab mark : Follow path of the current file.
+    
+       # open any C++ file in Geany  go to Build > set build commands and copy my flags.
+       BUild>> set build commadns>>
+       
+       # compile (F8) : g++ -std=c++17 -wshadow -wall -o "%e" "%f" -02 -Wno-unued-result
+       
+       # Build(F9)    : g++ std=c++ -Wshadow -Wall -o "%e" "%f" -g -fsanitize=address -fsanitize=undefined -D_GLIBCXX_DEBUG
+       
+ 	
